@@ -25,6 +25,7 @@ class cassandra(
     $start_native_transport                 = $cassandra::params::start_native_transport,
     $start_rpc                              = $cassandra::params::start_rpc,
     $rpc_address                            = $cassandra::params::rpc_address,
+    $broadcast_rpc_address                  = $cassandra::params::broadcast_rpc_address,
     $rpc_port                               = $cassandra::params::rpc_port,
     $rpc_server_type                        = $cassandra::params::rpc_server_type,
     $rpc_min_threads                        = $cassandra::params::rpc_min_threads,
